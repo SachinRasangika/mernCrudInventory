@@ -1,0 +1,59 @@
+.inventory-manager {
+    padding: 20px;
+  }
+  
+  .add-item {
+    margin-bottom: 20px;
+  }
+  
+  .add-item-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .add-item-form input,
+  .add-item-form select,
+  .add-item-form button {
+    padding: 10px;
+    margin: 5px 0;
+  }
+  
+  .add-item-form button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-item-form button:hover {
+    background-color: #45a049; /* Darker green */
+  }
+  
+  .item-list {
+    margin-top: 20px;
+  }
+  
+  .item-list table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .item-list th, .item-list td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .update-btn {
+    background-color: #ccc;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #f00;
+    color: white;
+    padding: 5px 10px;
+  }
+  
